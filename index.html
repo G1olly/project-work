@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="it" data-theme="dark">
+<head>
+  <!-- =====================================================
+       HEAD
+       - Meta tag principali
+       - Titolo pagina (scheda browser)
+       - Descrizione (SEO/anteprima)
+       - Collegamento CSS
+       ===================================================== -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Librandi | Report di Sostenibilità (Download)</title>
+  <meta name="description" content="Pagina web per consultazione e download dei report di sostenibilità di Librandi (settore primario vitivinicolo)." />
+
+  <!-- CSS principale del sito -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- =====================================================
+       HEADER / TOPBAR
+       - Branding (logo + titolo)
+       - Navigazione interna (ancore)
+       ===================================================== -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+
+      <!-- Brand (logo + nome) -->
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">L</div>
+        <div class="brand-text">
+          <h1 class="brand-title">Librandi</h1>
+          <p class="brand-subtitle">Report di sostenibilità — area download documenti</p>
+        </div>
+      </div>
+
+      <!-- Navigazione interna (desktop) -->
+      <nav class="topnav" aria-label="Navigazione principale">
+        <a href="#azienda" class="navlink">Azienda</a>
+        <a href="#dati" class="navlink">Dati</a>
+        <a href="#foto" class="navlink">Foto</a>
+        <a href="#report" class="navlink navlink-cta">Report</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- =====================================================
+       MAIN
+       - Contenuto principale della pagina
+       ===================================================== -->
+  <main id="contenuto" class="container">
+
+    <!-- =====================================================
+         HERO
+         - Introduzione breve + call to action
+         ===================================================== -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-card">
+        <div class="hero-left">
+
+          <p class="eyebrow">Settore primario • Vitivinicolo • Calabria</p>
+          <h2 id="heroTitle">Documenti e informazioni di sostenibilità</h2>
+
+          <p class="hero-text">
+            Questa pagina è dedicata alla consultazione dei bilanci e dei documenti di sostenibilità dell’azienda Librandi,
+            realtà vitivinicola calabrese operante nel settore primario.
+          </p>
+
+          <p>
+            L’obiettivo è rendere facilmente accessibili informazioni e documenti pubblici relativi all’impegno dell’azienda
+            e alla trasparenza verso stakeholder, studenti e interessati.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#report">Vai ai report</a>
+            <a class="btn btn-light" href="#dati">Vedi dati</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         AZIENDA
+         - Profilo sintetico + info principali
+         - KPI rapidi (anche descrittivi)
+         ===================================================== -->
+    <section id="azienda" class="panel" aria-labelledby="aziendaTitle">
+      <div class="panel-head">
+        <h3 id="aziendaTitle">L’azienda</h3>
+        <p class="hint">Contenuti descrittivi e informativi (project work).</p>
+      </div>
+
+      <div class="two-col">
+
+        <!-- Card: Profilo sintetico -->
+        <article class="card soft">
+          <h4 class="card-title-sm">Profilo sintetico</h4>
+
+          <p class="muted">
+            Librandi è una realtà vitivinicola calabrese operante nel settore primario, con attività che comprendono la coltivazione
+            della vite e la produzione di vino. L’azienda si distingue per un forte legame con il territorio e per la valorizzazione
+            delle risorse locali, elementi centrali della propria identità.
+          </p>
+
+          <p class="muted">
+            Nel contesto attuale, la sostenibilità assume un ruolo sempre più rilevante nella comunicazione d’impresa.
+            La pubblicazione dei report in formato digitale favorisce trasparenza e accessibilità dei contenuti.
+          </p>
+        </article>
+
+        <!-- Card: Informazioni principali -->
+        <article class="card soft">
+          <h4 class="card-title-sm">Informazioni principali</h4>
+          <ul class="list">
+            <li><strong>Settore:</strong> Vitivinicolo (settore primario)</li>
+            <li><strong>Localizzazione:</strong> Calabria</li>
+            <li><strong>Ambito operativo:</strong> coltivazione della vite, vinificazione e commercializzazione</li>
+            <li><strong>Orientamento:</strong> qualità, territorio, attenzione ad aspetti ambientali e sociali</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <!-- KPI (riassunto rapido) -->
+      <div class="kpi-grid" aria-label="Statistiche rapide">
+        <div class="kpi">
+          <p class="kpi-label">Documenti (PDF)</p>
+          <!-- Valore aggiornato via JS (conteggio report-card) -->
+          <p class="kpi-value" id="kpiDocs">4</p>
+        </div>
+        <div class="kpi">
+          <p class="kpi-label">Area operativa</p>
+          <p class="kpi-value">Calabria</p>
+        </div>
+        <div class="kpi">
+          <p class="kpi-label">Attività principali</p>
+          <p class="kpi-value">Viticoltura e vinificazione</p>
+        </div>
+        <div class="kpi">
+          <p class="kpi-label">Valori chiave</p>
+          <p class="kpi-value">Territorio • Qualità • Sostenibilità</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         DATI / STATISTICHE (SENZA GRAFICO)
+         - Qui mettiamo “numeri” reali e chiari
+         - Con fonti linkate (così il prof vede che non inventi)
+         ===================================================== -->
+    <section id="dati" class="panel" aria-labelledby="datiTitle">
+      <div class="panel-head">
+        <h3 id="datiTitle">Dati e statistiche</h3>
+        <p class="hint">Indicatori sintetici sull’azienda (da fonti pubbliche).</p>
+      </div>
+
+      <div class="two-col">
+        <!-- Card: numeri chiave -->
+        <article class="card soft">
+          <h4 class="card-title-sm">Numeri chiave (da fonti pubbliche)</h4>
+
+          <ul class="list compact">
+            <li><strong>Anno di fondazione:</strong> 1953</li>
+            <li><strong>Superficie vitata:</strong> ~232 ettari</li>
+            <li><strong>Superficie complessiva tenute:</strong> ~350–369 ettari (a seconda delle fonti)</li>
+            <li><strong>Uliveto:</strong> ~80 ettari</li>
+            <li><strong>Produzione:</strong> ~2,5 milioni di bottiglie/anno (dato riportato in articoli di settore)</li>
+          </ul>
+
+          
+        </article>
+
+        <!-- Card: fonti (link) -->
+        <article class="card soft">
+          <h4 class="card-title-sm">Fonti (link)</h4>
+
+          <p class="muted">
+            Per trasparenza, qui trovi le principali pagine da cui sono stati ricavati i numeri riportati sopra.
+            (I link si aprono in una nuova scheda).
+          </p>
+
+          <ul class="list compact">
+            <li>
+              <strong>Fondazione (1953):</strong>
+              <a class="navlink" href="https://forbes.it/2024/05/27/vocazione-vitivinicola-e-tradizione-la-storia-di-librandi/" target="_blank" rel="noopener">Forbes Italia</a>
+            </li>
+            <li>
+              <strong>Superfici + produzione (232 ha, 2,5 mln bottiglie):</strong>
+              <a class="navlink" href="https://terraevita.edagricole.it/nova/nova-agricoltori-innovatori/librandi-la-riscoperta-del-gaglioppo-e-dei-suoi-fratelli/" target="_blank" rel="noopener">Terra e Vita (Edagricole)</a>
+            </li>
+            <li>
+              <strong>Tenute ~350 ha e 80 ha uliveto:</strong>
+              <a class="navlink" href="https://www.consulentedelgusto.it/2025/05/26/lolio-evo-librandi-espressione-autentica-delle-calabria/" target="_blank" rel="noopener">Consulente del Gusto</a>
+              <span class="muted"> / </span>
+              <a class="navlink" href="https://www.thetravelnews.it/tenuta-librandi-azienda-che-conserva-e-valorizza-il-patrimonio-viticolo-calabrese/" target="_blank" rel="noopener">The Travel News</a>
+            </li>
+          </ul>
+
+          
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         FOTO
+         - Galleria immagini illustrative
+         ===================================================== -->
+    <section id="foto" class="panel" aria-labelledby="fotoTitle">
+      <div class="panel-head">
+        <h3 id="fotoTitle">Foto dell’azienda</h3>
+      </div>
+
+      <div class="gallery">
+        <figure class="shot">
+          <img src="images/Terreni.jpg" alt="Vigneti e territorio (immagine aziendale)" loading="lazy">
+          <figcaption>Vigneti / territorio</figcaption>
+        </figure>
+
+        <figure class="shot">
+          <!-- NOTA: meglio rinominare il file senza spazi e ':' per evitare problemi su hosting -->
+          <img src="images/Cantina%20:%20Vinificazione.jpg" alt="Cantina o sede produttiva (immagine aziendale)" loading="lazy">
+          <figcaption>Cantina / sede produttiva</figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img src="images/Vini.jpg" alt="Produzione / vini (immagine aziendale)" loading="lazy">
+          <figcaption>Produzione / Vini</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         REPORT
+         - Elenco report PDF scaricabili
+         ===================================================== -->
+    <section id="report" class="panel" aria-labelledby="reportTitle">
+      <div class="panel-head">
+        <h3 id="reportTitle">Report di sostenibilità (PDF)</h3>
+        <p class="hint">Consulta e scarica i bilanci di sostenibilità dell’azienda Librandi.</p>
+      </div>
+
+      <div class="grid">
+
+        <!-- 2024–2025 -->
+        <article class="card report-card" data-year="2024-2025" data-tags="librandi sostenibilità report 2024 2025 pdf">
+          <div class="card-top">
+            <h4 class="card-title">Bilancio di sostenibilità 2024–2025</h4>
+            <span class="badge">2024–2025</span>
+          </div>
+          <p class="card-desc">Report di sostenibilità relativo al periodo 2024–2025.</p>
+          <div class="card-actions">
+            <a class="btn btn-primary" href="reports/bilancio_di_sostenibilita_2024-2025.pdf" download>Apri / Scarica</a>
+          </div>
+          <p class="card-footnote">Formato: PDF</p>
+        </article>
+
+        <!-- 2023–2024 -->
+        <article class="card report-card" data-year="2023-2024" data-tags="librandi sostenibilità bilancio 2023 2024 pdf">
+          <div class="card-top">
+            <h4 class="card-title">Bilancio di sostenibilità 2023–2024</h4>
+            <span class="badge">2023–2024</span>
+          </div>
+          <p class="card-desc">Report di sostenibilità relativo al periodo 2023–2024.</p>
+          <div class="card-actions">
+            <a class="btn btn-primary" href="reports/bilancio_di_sostenibilita_librandi_2023-2024.pdf" download>Apri / Scarica</a>
+          </div>
+          <p class="card-footnote">Formato: PDF</p>
+        </article>
+
+        <!-- 2022–2023 -->
+        <article class="card report-card" data-year="2022-2023" data-tags="librandi sostenibilità bilancio 2022 2023 pdf">
+          <div class="card-top">
+            <h4 class="card-title">Bilancio di sostenibilità 2022–2023</h4>
+            <span class="badge">2022–2023</span>
+          </div>
+          <p class="card-desc">Report di sostenibilità relativo al periodo 2022–2023.</p>
+          <div class="card-actions">
+            <a class="btn btn-primary" href="reports/bilancio_di_sostenibilita_22-23.pdf" download>Apri / Scarica</a>
+          </div>
+          <p class="card-footnote">Formato: PDF</p>
+        </article>
+
+        <!-- 2021 -->
+        <article class="card report-card" data-year="2021" data-tags="librandi sostenibilità bilancio 2021 pdf">
+          <div class="card-top">
+            <h4 class="card-title">Bilancio di sostenibilità 2021</h4>
+            <span class="badge">2021</span>
+          </div>
+          <p class="card-desc">Report di sostenibilità relativo al periodo 2021.</p>
+          <div class="card-actions">
+            <a class="btn btn-primary" href="reports/bilancio_di_sostenibilita_2021.pdf" download>Apri / Scarica</a>
+          </div>
+          <p class="card-footnote">Formato: PDF</p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================================
+       FOOTER
+       - Anno inserito via JS
+       ===================================================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p><span id="yearNow"></span> Project work L-31 • Pagina web dimostrativa</p>
+      <p class="footer-small">Contenuti e documenti: materiali pubblici/dimostrativi a fini didattici.</p>
+    </div>
+  </footer>
+
+  <!-- =====================================================
+       SCRIPT DELLA PAGINA
+       - anno nel footer
+       - conteggio documenti (KPI)
+       - (altre funzioni eventuali)
+       ===================================================== -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
