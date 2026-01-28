@@ -1,13 +1,11 @@
 <!doctype html>
 <html lang="it" data-theme="dark">
 <head>
-  <!-- =====================================================
-       HEAD
-       - Meta tag principali
-       - Titolo pagina (scheda browser)
-       - Descrizione (SEO/anteprima)
-       - Collegamento CSS
-       ===================================================== -->
+  <!--
+    - Meta tag principali
+    - Titolo pagina (scheda browser)
+    - Descrizione (SEO/anteprima)
+    - Collegamento CSS -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -17,14 +15,11 @@
   <!-- CSS principale del sito -->
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
 
-  <!-- =====================================================
-       HEADER / TOPBAR
-       - Branding (logo + titolo)
-       - Navigazione interna (ancore)
-       ===================================================== -->
+  <!-- HEADER / TOPBAR
+      - Branding (logo + titolo)
+      - Navigazione interna (ancore) -->
   <header class="topbar">
     <div class="container topbar-inner">
 
@@ -37,44 +32,33 @@
         </div>
       </div>
 
-      <!-- Navigazione interna (desktop) -->
+      <!-- Navigazione interna -->
       <nav class="topnav" aria-label="Navigazione principale">
         <a href="#azienda" class="navlink">Azienda</a>
         <a href="#dati" class="navlink">Dati</a>
         <a href="#foto" class="navlink">Foto</a>
+        <a href="#sviluppo" class="navlink">Sviluppo</a>
         <a href="#report" class="navlink navlink-cta">Report</a>
       </nav>
 
     </div>
   </header>
 
-  <!-- =====================================================
-       MAIN
-       - Contenuto principale della pagina
-       ===================================================== -->
+  <!--  Contenuto principale della pagina -->
   <main id="contenuto" class="container">
 
-    <!-- =====================================================
-         HERO
-         - Introduzione breve + call to action
-         ===================================================== -->
+    <!-- Introduzione breve + call to action -->
     <section class="hero" aria-labelledby="heroTitle">
       <div class="hero-card">
         <div class="hero-left">
 
           <p class="eyebrow">Settore primario • Vitivinicolo • Calabria</p>
-          <h2 id="heroTitle">Documenti e informazioni di sostenibilità</h2>
+          <h2 id="heroTitle">Area Sostenibilità</h2>
 
           <p class="hero-text">
-            Questa pagina è dedicata alla consultazione dei bilanci e dei documenti di sostenibilità dell’azienda Librandi,
-            realtà vitivinicola calabrese operante nel settore primario.
+          Questa pagina raccoglie i bilanci e i documenti di sostenibilità di Librandi, realtà vitivinicola calabrese attiva nel settore primario.
+          L’obiettivo è offrire un accesso semplice e immediato a informazioni pubbliche sull’impegno dell’azienda e sulla trasparenza verso stakeholder, studenti e interessati.
           </p>
-
-          <p>
-            L’obiettivo è rendere facilmente accessibili informazioni e documenti pubblici relativi all’impegno dell’azienda
-            e alla trasparenza verso stakeholder, studenti e interessati.
-          </p>
-
           <div class="hero-actions">
             <a class="btn btn-primary" href="#report">Vai ai report</a>
             <a class="btn btn-light" href="#dati">Vedi dati</a>
@@ -84,32 +68,29 @@
       </div>
     </section>
 
-    <!-- =====================================================
-         AZIENDA
-         - Profilo sintetico + info principali
-         - KPI rapidi (anche descrittivi)
-         ===================================================== -->
+    <!-- AZIENDA
+        - Profilo sintetico + info principali -->
     <section id="azienda" class="panel" aria-labelledby="aziendaTitle">
       <div class="panel-head">
         <h3 id="aziendaTitle">L’azienda</h3>
-        <p class="hint">Contenuti descrittivi e informativi (project work).</p>
       </div>
 
       <div class="two-col">
 
         <!-- Card: Profilo sintetico -->
         <article class="card soft">
-          <h4 class="card-title-sm">Profilo sintetico</h4>
+          <h4 class="card-title-sm">Chi siamo</h4>
 
           <p class="muted">
-            Librandi è una realtà vitivinicola calabrese operante nel settore primario, con attività che comprendono la coltivazione
-            della vite e la produzione di vino. L’azienda si distingue per un forte legame con il territorio e per la valorizzazione
-            delle risorse locali, elementi centrali della propria identità.
+            Librandi è un’azienda vitivinicola calabrese attiva nel settore primario, 
+            impegnata nella coltivazione della vite e nella produzione di vini legati al territorio di origine. 
+            L’attività aziendale si fonda sulla valorizzazione delle risorse locali e su un forte legame con il contesto ambientale e culturale in cui opera.
           </p>
 
           <p class="muted">
-            Nel contesto attuale, la sostenibilità assume un ruolo sempre più rilevante nella comunicazione d’impresa.
-            La pubblicazione dei report in formato digitale favorisce trasparenza e accessibilità dei contenuti.
+            Nel tempo, Librandi ha affiancato alla produzione vitivinicola un’attenzione crescente verso i temi della sostenibilità e della responsabilità d’impresa, 
+            promuovendo pratiche orientate alla tutela dell’ambiente e alla trasparenza. In questo quadro si inserisce la scelta di rendere disponibili i report di sostenibilità in formato digitale, favorendo un accesso chiaro e immediato alle informazioni.
+
           </p>
         </article>
 
@@ -148,22 +129,19 @@
       </div>
     </section>
 
-    <!-- =====================================================
-         DATI / STATISTICHE (SENZA GRAFICO)
-         - Qui mettiamo “numeri” reali e chiari
-         - Con fonti linkate (così il prof vede che non inventi)
-         ===================================================== -->
+    <!-- DATI / STATISTICHE
+        - Dati chiave (anno fondazione, superfici, produzione)
+        - Tabella riepilogativa
+        - Grafico a barre
+        - Fonti e metodologia -->
     <section id="dati" class="panel" aria-labelledby="datiTitle">
       <div class="panel-head">
         <h3 id="datiTitle">Dati e statistiche</h3>
-        <p class="hint">Indicatori sintetici sull’azienda (da fonti pubbliche).</p>
       </div>
 
       <div class="two-col">
         <!-- Card: numeri chiave -->
         <article class="card soft">
-          <h4 class="card-title-sm">Numeri chiave (da fonti pubbliche)</h4>
-
           <ul class="list compact">
             <li><strong>Anno di fondazione:</strong> 1953</li>
             <li><strong>Superficie vitata:</strong> ~232 ettari</li>
@@ -172,44 +150,152 @@
             <li><strong>Produzione:</strong> ~2,5 milioni di bottiglie/anno (dato riportato in articoli di settore)</li>
           </ul>
 
-          
+          <h5 class="card-title-xs">Tabella riepilogativa</h5>
+          <div class="table-wrap" role="region" aria-label="Tabella riepilogativa dei dati aziendali" tabindex="0">
+            <table class="table">
+              <caption class="sr-only">Riepilogo sintetico di alcuni indicatori (valori da fonti pubbliche).</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Indicatore</th>
+                  <th scope="col">Valore</th>
+                  <th scope="col">Nota</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Anno di fondazione</th>
+                  <td>1953</td>
+                  <td>Dato storico riportato in fonti giornalistiche</td>
+                </tr>
+                <tr>
+                  <th scope="row">Superficie vitata</th>
+                  <td>~232 ha</td>
+                  <td>Valore indicativo</td>
+                </tr>
+                <tr>
+                  <th scope="row">Uliveto</th>
+                  <td>~80 ha</td>
+                  <td>Valore indicativo</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tenute complessive</th>
+                  <td>~350–369 ha</td>
+                  <td>Range in base alle fonti</td>
+                </tr>
+                <tr>
+                  <th scope="row">Produzione annua</th>
+                  <td>~2,5 mln bottiglie</td>
+                  <td>Dato riportato in articoli di settore</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h5 class="card-title-xs">Grafico (aree agricole a confronto)</h5>
+          <figure class="chart" aria-labelledby="chartTitle" aria-describedby="chartDesc">
+            <svg viewBox="0 0 520 220" role="img">
+              <title id="chartTitle">Confronto indicativo delle superfici: vitata, uliveto e tenute complessive</title>
+              <desc id="chartDesc">Grafico a barre con valori indicativi in ettari: vitata 232, uliveto 80, tenute complessive 350. I valori sono riportati anche in tabella.</desc>
+
+              <!-- assi -->
+              <line x1="60" y1="30" x2="60" y2="180" class="axis" />
+              <line x1="60" y1="180" x2="500" y2="180" class="axis" />
+
+              <!-- barre (scala max ~350) -->
+              <!-- vitata: 232 -->
+              <rect x="90" y="80" width="90" height="100" class="bar" />
+              <text x="135" y="200" text-anchor="middle" class="bar-label">Vitata</text>
+              <text x="135" y="72" text-anchor="middle" class="bar-value">232 ha</text>
+
+              <!-- uliveto: 80 -->
+              <rect x="230" y="145" width="90" height="35" class="bar" />
+              <text x="275" y="200" text-anchor="middle" class="bar-label">Uliveto</text>
+              <text x="275" y="137" text-anchor="middle" class="bar-value">80 ha</text>
+
+              <!-- tenute complessive: 350 -->
+              <rect x="370" y="30" width="90" height="150" class="bar" />
+              <text x="415" y="200" text-anchor="middle" class="bar-label">Tenute</text>
+              <text x="415" y="22" text-anchor="middle" class="bar-value">350 ha</text>
+            </svg>
+          </figure>
+
         </article>
-
-        <!-- Card: fonti (link) -->
+       
+        <!-- Card: fonti e metodologia (versione arricchita) -->
         <article class="card soft">
-          <h4 class="card-title-sm">Fonti (link)</h4>
+          <h4 class="card-title-sm">Fonti</h4>
 
-          <p class="muted">
-            Per trasparenza, qui trovi le principali pagine da cui sono stati ricavati i numeri riportati sopra.
-            (I link si aprono in una nuova scheda).
-          </p>
+          <details class="source" open>
+            <summary><strong>Forbes Italia</strong> — profilo storico e anno di fondazione</summary>
+            <p class="muted">Supporta: <strong>anno di fondazione (1953)</strong> e inquadramento generale dell’azienda.</p>
+            <p><a class="navlink" href="https://forbes.it/2024/05/27/vocazione-vitivinicola-e-tradizione-la-storia-di-librandi/" target="_blank" rel="noopener">Apri fonte</a></p>
+          </details>
 
+          <details class="source">
+            <summary><strong>Terra e Vita (Edagricole)</strong> — superfici vitate e produzione</summary>
+            <p class="muted">Supporta: <strong>superficie vitata (~232 ha)</strong> e <strong>produzione (~2,5 milioni di bottiglie/anno)</strong> (dato riportato in articoli di settore).</p>
+            <p><a class="navlink" href="https://terraevita.edagricole.it/nova/nova-agricoltori-innovatori/librandi-la-riscoperta-del-gaglioppo-e-dei-suoi-fratelli/" target="_blank" rel="noopener">Apri fonte</a></p>
+          </details>
+
+          <details class="source">
+            <summary><strong>Consulente del Gusto</strong> — uliveto e informazioni sulle tenute</summary>
+            <p class="muted">Supporta: <strong>uliveto (~80 ha)</strong> e informazioni descrittive sull’azienda.</p>
+            <p><a class="navlink" href="https://www.consulentedelgusto.it/2025/05/26/lolio-evo-librandi-espressione-autentica-delle-calabria/" target="_blank" rel="noopener">Apri fonte</a></p>
+          </details>
+
+          <details class="source">
+            <summary><strong>The Travel News</strong> — panoramica e dimensione complessiva delle tenute</summary>
+            <p class="muted">Supporta: indicazioni sulla <strong>superficie complessiva delle tenute (~350 ha)</strong> e contesto aziendale.</p>
+            <p><a class="navlink" href="https://www.thetravelnews.it/tenuta-librandi-azienda-che-conserva-e-valorizza-il-patrimonio-viticolo-calabrese/" target="_blank" rel="noopener">Apri fonte</a></p>
+          </details>
+
+          <h5 class="card-title-xs">Fonte istituzionale</h5>
           <ul class="list compact">
             <li>
-              <strong>Fondazione (1953):</strong>
-              <a class="navlink" href="https://forbes.it/2024/05/27/vocazione-vitivinicola-e-tradizione-la-storia-di-librandi/" target="_blank" rel="noopener">Forbes Italia</a>
-            </li>
-            <li>
-              <strong>Superfici + produzione (232 ha, 2,5 mln bottiglie):</strong>
-              <a class="navlink" href="https://terraevita.edagricole.it/nova/nova-agricoltori-innovatori/librandi-la-riscoperta-del-gaglioppo-e-dei-suoi-fratelli/" target="_blank" rel="noopener">Terra e Vita (Edagricole)</a>
-            </li>
-            <li>
-              <strong>Tenute ~350 ha e 80 ha uliveto:</strong>
-              <a class="navlink" href="https://www.consulentedelgusto.it/2025/05/26/lolio-evo-librandi-espressione-autentica-delle-calabria/" target="_blank" rel="noopener">Consulente del Gusto</a>
-              <span class="muted"> / </span>
-              <a class="navlink" href="https://www.thetravelnews.it/tenuta-librandi-azienda-che-conserva-e-valorizza-il-patrimonio-viticolo-calabrese/" target="_blank" rel="noopener">The Travel News</a>
+              <strong>Sito ufficiale Librandi:</strong>
+              <a class="navlink" href="https://www.librandi.it/" target="_blank" rel="noopener">librandi.it</a>
+              <span class="muted">(per contesto aziendale e comunicazione istituzionale)</span>
             </li>
           </ul>
-
-          
         </article>
       </div>
     </section>
 
-    <!-- =====================================================
-         FOTO
-         - Galleria immagini illustrative
-         ===================================================== -->
+    <!-- SVILUPPO / PROCESSO
+        - Resoconto del processo di sviluppo
+        - Scelte di accessibilità e inclusività -->
+    <section id="sviluppo" class="panel" aria-labelledby="sviluppoTitle">
+      <div class="panel-head">
+        <h3 id="sviluppoTitle">Resoconto del processo di sviluppo</h3>
+      </div>
+
+      <div class="two-col">
+        <article class="card soft">
+        <h4 class="card-title-sm">Fasi di lavoro</h4>
+        <ol class="list compact">
+            <li><strong>Coltivazione della vite:</strong> gestione dei vigneti e valorizzazione delle varietà autoctone.</li>
+            <li><strong>Raccolta delle uve:</strong> selezione delle materie prime in funzione della qualità del prodotto finale.</li>
+            <li><strong>Vinificazione:</strong> trasformazione delle uve in cantina secondo pratiche consolidate.</li>
+            <li><strong>Affinamento e imbottigliamento:</strong> controllo della qualità e preparazione alla commercializzazione.</li>
+            <li><strong>Distribuzione e comunicazione:</strong> diffusione del prodotto e trasparenza verso il pubblico.</li>
+          </ol>
+        </article>  
+        
+        <article class="card soft">
+          <h4 class="card-title-sm">Inclusività e responsabilità sociale</h4>
+          <ul class="list compact">
+            <li><strong>Territorio e comunità:</strong> attenzione al legame con il contesto locale e alla valorizzazione delle risorse del territorio.</li>
+            <li><strong>Trasparenza verso gli stakeholder:</strong> comunicazione chiara attraverso la pubblicazione dei report e di informazioni accessibili al pubblico.</li>
+            <li><strong>Cultura della sostenibilità:</strong> promozione di pratiche e iniziative coerenti con la tutela ambientale e la responsabilità d’impresa.</li>
+            <li><strong>Dialogo e accessibilità delle informazioni:</strong> impegno a rendere i contenuti comprensibili anche a non addetti ai lavori (studenti, cittadini, interessati).</li>
+            <li><strong>Valore sociale della filiera:</strong> attenzione agli impatti sociali connessi alle attività produttive e alla filiera.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- FOTO
+        - Galleria immagini illustrative -->
     <section id="foto" class="panel" aria-labelledby="fotoTitle">
       <div class="panel-head">
         <h3 id="fotoTitle">Foto dell’azienda</h3>
@@ -222,7 +308,6 @@
         </figure>
 
         <figure class="shot">
-          <!-- NOTA: meglio rinominare il file senza spazi e ':' per evitare problemi su hosting -->
           <img src="images/Cantina%20:%20Vinificazione.jpg" alt="Cantina o sede produttiva (immagine aziendale)" loading="lazy">
           <figcaption>Cantina / sede produttiva</figcaption>
         </figure>
@@ -234,10 +319,8 @@
       </div>
     </section>
 
-    <!-- =====================================================
-         REPORT
-         - Elenco report PDF scaricabili
-         ===================================================== -->
+    <!-- REPORT
+        - Elenco report PDF scaricabili -->
     <section id="report" class="panel" aria-labelledby="reportTitle">
       <div class="panel-head">
         <h3 id="reportTitle">Report di sostenibilità (PDF)</h3>
@@ -246,7 +329,7 @@
 
       <div class="grid">
 
-        <!-- 2024–2025 -->
+        <!-- Bilancio 2024–2025 -->
         <article class="card report-card" data-year="2024-2025" data-tags="librandi sostenibilità report 2024 2025 pdf">
           <div class="card-top">
             <h4 class="card-title">Bilancio di sostenibilità 2024–2025</h4>
@@ -259,7 +342,7 @@
           <p class="card-footnote">Formato: PDF</p>
         </article>
 
-        <!-- 2023–2024 -->
+        <!-- Bilancio 2023–2024 -->
         <article class="card report-card" data-year="2023-2024" data-tags="librandi sostenibilità bilancio 2023 2024 pdf">
           <div class="card-top">
             <h4 class="card-title">Bilancio di sostenibilità 2023–2024</h4>
@@ -272,7 +355,7 @@
           <p class="card-footnote">Formato: PDF</p>
         </article>
 
-        <!-- 2022–2023 -->
+        <!-- Bilancio 2022–2023 -->
         <article class="card report-card" data-year="2022-2023" data-tags="librandi sostenibilità bilancio 2022 2023 pdf">
           <div class="card-top">
             <h4 class="card-title">Bilancio di sostenibilità 2022–2023</h4>
@@ -285,7 +368,7 @@
           <p class="card-footnote">Formato: PDF</p>
         </article>
 
-        <!-- 2021 -->
+        <!-- Bilancio 2021 -->
         <article class="card report-card" data-year="2021" data-tags="librandi sostenibilità bilancio 2021 pdf">
           <div class="card-top">
             <h4 class="card-title">Bilancio di sostenibilità 2021</h4>
@@ -303,23 +386,18 @@
 
   </main>
 
-  <!-- =====================================================
-       FOOTER
-       - Anno inserito via JS
-       ===================================================== -->
+  <!--Anno inserito via JS -->
   <footer class="footer">
     <div class="container footer-inner">
-      <p><span id="yearNow"></span> Project work L-31 • Pagina web dimostrativa</p>
-      <p class="footer-small">Contenuti e documenti: materiali pubblici/dimostrativi a fini didattici.</p>
+      <p><span id="yearNow"></span> Project work L-31 </p>
     </div>
   </footer>
 
-  <!-- =====================================================
+  <!--
        SCRIPT DELLA PAGINA
        - anno nel footer
        - conteggio documenti (KPI)
-       - (altre funzioni eventuali)
-       ===================================================== -->
+       - (altre funzioni eventuali)  -->
   <script src="script.js" defer></script>
 
 </body>
