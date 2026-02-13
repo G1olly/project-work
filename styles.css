@@ -26,23 +26,6 @@
   --focus:rgba(214,183,108,.45);
 }
 
-:root[data-theme="light"]{
-  --bg:#fbf7f3;
-  --panel:#ffffff;
-  --panel-hi:#fff6ef;
-  --text:#1b1320;
-  --muted:#5f5768;
-
-  --border:rgba(27,19,32,.12);
-  --border-strong:rgba(181,139,50,.26);
-  --shadow:0 16px 45px rgba(27,19,32,.10);
-
-  --btn-bg:rgba(27,19,32,.06);
-  --btn-bg-hover:rgba(27,19,32,.10);
-
-  --focus:rgba(181,139,50,.35);
-}
-
 /* 2) Base */
 *{box-sizing:border-box;}
 html,body{height:100%;}
