@@ -1,5 +1,3 @@
-//1) Anno corrente nel footer
-//2) KPI: numero di documenti/report
 document.addEventListener("DOMContentLoaded", () => {
   // 1) Anno nel footer
   const yearNow = document.getElementById("yearNow");
