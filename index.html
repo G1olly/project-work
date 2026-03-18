@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <!--
     - Meta tag principali
@@ -10,11 +11,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>Librandi | Report di Sostenibilità (Download)</title>
-  <meta name="description" content="Pagina web per consultazione e download dei report di sostenibilità di Librandi (settore primario vitivinicolo)." />
+  <meta name="description"
+    content="Pagina web per consultazione e download dei report di sostenibilità di Librandi (settore primario vitivinicolo)." />
 
   <!-- CSS principale del sito -->
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
   <!-- HEADER / TOPBAR
@@ -35,6 +38,7 @@
       <!-- Navigazione interna -->
       <nav class="topnav" aria-label="Navigazione principale">
         <a href="#azienda" class="navlink">Azienda</a>
+        <a href="#sostenibilita" class="navlink">Sostenibilità</a>
         <a href="#dati" class="navlink">Dati</a>
         <a href="#foto" class="navlink">Foto</a>
         <a href="#sviluppo" class="navlink">Sviluppo</a>
@@ -55,9 +59,11 @@
           <p class="eyebrow">Settore primario • Vitivinicolo • Calabria</p>
           <h2 id="heroTitle">Area Sostenibilità</h2>
 
-          <p class="hero-text">
-          Questa pagina raccoglie i bilanci e i documenti di sostenibilità di Librandi, realtà vitivinicola calabrese attiva nel settore primario.
-          L’obiettivo è offrire un accesso semplice e immediato a informazioni pubbliche sull’impegno dell’azienda e sulla trasparenza verso stakeholder, studenti e interessati.
+          <p class="hero-text" style="margin-bottom:20px">
+            Questa pagina raccoglie i bilanci e i documenti di sostenibilità di Librandi, realtà vitivinicola calabrese
+            attiva nel settore primario.
+            L’obiettivo è offrire un accesso semplice e immediato a informazioni pubbliche sull’impegno dell’azienda e
+            sulla trasparenza verso stakeholder, studenti e interessati.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#report">Vai ai report</a>
@@ -82,14 +88,18 @@
           <h4 class="card-title-sm">Chi siamo</h4>
 
           <p class="muted">
-            Librandi è un’azienda vitivinicola calabrese attiva nel settore primario, 
-            impegnata nella coltivazione della vite e nella produzione di vini legati al territorio di origine. 
-            L’attività aziendale si fonda sulla valorizzazione delle risorse locali e su un forte legame con il contesto ambientale e culturale in cui opera.
+            Librandi è un’azienda vitivinicola calabrese attiva nel settore primario,
+            impegnata nella coltivazione della vite e nella produzione di vini legati al territorio di origine.
+            L’attività aziendale si fonda sulla valorizzazione delle risorse locali e su un forte legame con il contesto
+            ambientale e culturale in cui opera.
           </p>
 
           <p class="muted">
-            Nel tempo, Librandi ha affiancato alla produzione vitivinicola un’attenzione crescente verso i temi della sostenibilità e della responsabilità d’impresa, 
-            promuovendo pratiche orientate alla tutela dell’ambiente e alla trasparenza. In questo quadro si inserisce la scelta di rendere disponibili i report di sostenibilità in formato digitale, favorendo un accesso chiaro e immediato alle informazioni.
+            Nel tempo, Librandi ha affiancato alla produzione vitivinicola un’attenzione crescente verso i temi della
+            sostenibilità e della responsabilità d’impresa,
+            promuovendo pratiche orientate alla tutela dell’ambiente e alla trasparenza. In questo quadro si inserisce
+            la scelta di rendere disponibili i report di sostenibilità in formato digitale, favorendo un accesso chiaro
+            e immediato alle informazioni.
 
           </p>
         </article>
@@ -111,23 +121,101 @@
       <div class="kpi-grid" aria-label="Statistiche rapide">
         <div class="kpi">
           <p class="kpi-label">Documenti (PDF)</p>
-          <!-- Valore aggiornato via JS (conteggio report-card) -->
           <p class="kpi-value" id="kpiDocs">0</p>
         </div>
+
         <div class="kpi">
           <p class="kpi-label">Area operativa</p>
           <p class="kpi-value">Calabria</p>
         </div>
+
         <div class="kpi">
           <p class="kpi-label">Attività principali</p>
           <p class="kpi-value">Viticoltura e vinificazione</p>
         </div>
+
         <div class="kpi">
           <p class="kpi-label">Valori chiave</p>
           <p class="kpi-value">Territorio • Qualità • Sostenibilità</p>
         </div>
       </div>
     </section>
+
+
+    <!-- SOSTENIBILITÀ
+          - Impegno e iniziative in ambito sostenibilità -->
+    <section id="sostenibilita" class="panel" aria-labelledby="sostenibilitaTitle">
+      <div class="panel-head">
+        <h3 id="sostenibilitaTitle">Attività messe in campo nell’ambito della sostenibilità</h3>
+      </div>
+      <p class="muted" style="margin-bottom:20px">
+        Nel contesto del settore vitivinicolo, la sostenibilità rappresenta un elemento sempre più centrale
+        nelle strategie aziendali. Librandi ha avviato un percorso strutturato volto a integrare
+        dimensioni ambientali, sociali ed economiche all’interno della propria attività produttiva.
+        Le attività riportate di seguito sono descritte nel Bilancio di sostenibilità 2024–2025
+        e rappresentano azioni concrete adottate dall’azienda.
+      </p>
+      <div class="card soft" style="margin-bottom:20px">
+        <h4 class="card-title-sm">1. Sostenibilità ambientale</h4>
+        <p class="muted">
+          L’azienda ha implementato pratiche agricole orientate alla tutela dell’ecosistema e alla valorizzazione della
+          biodiversità regionale.
+        </p>
+        <ul class="list compact">
+          <li><strong>Certificazione Equalitas:</strong> adozione dello standard di “Cantina Sostenibile”, basato sui
+            pilastri ambientale, etico ed economico.</li>
+          <li><strong>Progetto BioPass:</strong> monitoraggio della biodiversità aziendale attraverso analisi dei suoli,
+            studio dei micro-artropodi e indici di biodiversità.</li>
+          <li><strong>Lotta integrata:</strong> riduzione dell’utilizzo di pesticidi e maggiore attenzione alla gestione
+            sostenibile dei vigneti.</li>
+          <li><strong>Giardino varietale:</strong> recupero e conservazione di circa 200 varietà autoctone calabresi.
+          </li>
+        </ul>
+      </div>
+
+      <div class="card soft" style="margin-bottom:20px">
+        <h4 class="card-title-sm">2. Responsabilità sociale e territorio</h4>
+        <p class="muted">
+          L’azienda integra la sostenibilità ambientale con iniziative rivolte al capitale umano e alla comunità locale.
+        </p>
+        <ul class="list compact">
+          <li><strong>Formazione e ambiente di lavoro:</strong> promozione di condizioni lavorative stimolanti ed eque.
+          </li>
+          <li><strong>Relazione con la filiera:</strong> promozione di principi condivisi con fornitori e partner.</li>
+          <li><strong>Comunità e territorio:</strong> investimenti e iniziative a sostegno del contesto locale.</li>
+          <li><strong>Trasparenza verso stakeholder:</strong> pubblicazione periodica dei bilanci di sostenibilità.</li>
+        </ul>
+      </div>
+
+      <div class="card soft" style="margin-bottom:20px">
+        <h4 class="card-title-sm">3. Governance e struttura organizzativa</h4>
+        <ul class="list compact">
+          <li><strong>Responsabile sostenibilità e qualità:</strong> figura dedicata all’interno dell’organigramma
+            aziendale.</li>
+          <li><strong>Codice Etico:</strong> adozione di principi di legalità, correttezza e responsabilità.</li>
+          <li><strong>Coinvolgimento degli stakeholder:</strong> sistema di relazioni strutturato con dipendenti,
+            fornitori, clienti, media e comunità.</li>
+        </ul>
+      </div>
+
+      <div class="card soft">
+        <h4 class="card-title-sm">4. Sistema di monitoraggio e miglioramento continuo</h4>
+        <p class="muted">
+          Le attività sopra riportate sono inserite in un sistema di gestione orientato al miglioramento continuo,
+          con raccolta e monitoraggio periodico di indicatori coerenti con lo standard Equalitas.
+        </p>
+      </div>
+
+      <p class="muted" style="margin-top:20px">
+        Fonte: Bilancio di sostenibilità Librandi 2024–2025.
+      </p>
+    </section>
+
+
+
+
+
+
 
     <!-- DATI / STATISTICHE
         - Dati chiave (anno fondazione, superfici, produzione)
@@ -195,7 +283,8 @@
           <figure class="chart" aria-labelledby="chartTitle" aria-describedby="chartDesc">
             <svg viewBox="0 0 520 220" role="img">
               <title id="chartTitle">Confronto indicativo delle superfici: vitata, uliveto e tenute complessive</title>
-              <desc id="chartDesc">Grafico a barre con valori indicativi in ettari: vitata 232, uliveto 80, tenute complessive 350. I valori sono riportati anche in tabella.</desc>
+              <desc id="chartDesc">Grafico a barre con valori indicativi in ettari: vitata 232, uliveto 80, tenute
+                complessive 350. I valori sono riportati anche in tabella.</desc>
 
               <!-- assi -->
               <line x1="60" y1="30" x2="60" y2="180" class="axis" />
@@ -220,33 +309,44 @@
           </figure>
 
         </article>
-       
+
         <!-- Card: fonti e metodologia (versione arricchita) -->
         <article class="card soft">
           <h2 class="card-title">Fonti</h2>
 
           <details class="source" open>
             <summary><strong>Forbes Italia</strong> — profilo storico e anno di fondazione</summary>
-            <p class="muted">Supporta: <strong>anno di fondazione (1953)</strong> e inquadramento generale dell’azienda.</p>
-            <p><a class="navlink" href="https://forbes.it/2024/05/27/vocazione-vitivinicola-e-tradizione-la-storia-di-librandi/" target="_blank" rel="noopener">Apri fonte</a></p>
+            <p class="muted">Supporta: <strong>anno di fondazione (1953)</strong> e inquadramento generale dell’azienda.
+            </p>
+            <p><a class="navlink"
+                href="https://forbes.it/2024/05/27/vocazione-vitivinicola-e-tradizione-la-storia-di-librandi/"
+                target="_blank" rel="noopener">Apri fonte</a></p>
           </details>
 
           <details class="source">
             <summary><strong>Terra e Vita (Edagricole)</strong> — superfici vitate e produzione</summary>
-            <p class="muted">Supporta: <strong>superficie vitata (~232 ha)</strong> e <strong>produzione (~2,5 milioni di bottiglie/anno)</strong> (dato riportato in articoli di settore).</p>
-            <p><a class="navlink" href="https://terraevita.edagricole.it/nova/nova-agricoltori-innovatori/librandi-la-riscoperta-del-gaglioppo-e-dei-suoi-fratelli/" target="_blank" rel="noopener">Apri fonte</a></p>
+            <p class="muted">Supporta: <strong>superficie vitata (~232 ha)</strong> e <strong>produzione (~2,5 milioni
+                di bottiglie/anno)</strong> (dato riportato in articoli di settore).</p>
+            <p><a class="navlink"
+                href="https://terraevita.edagricole.it/nova/nova-agricoltori-innovatori/librandi-la-riscoperta-del-gaglioppo-e-dei-suoi-fratelli/"
+                target="_blank" rel="noopener">Apri fonte</a></p>
           </details>
 
           <details class="source">
             <summary><strong>Consulente del Gusto</strong> — uliveto e informazioni sulle tenute</summary>
             <p class="muted">Supporta: <strong>uliveto (~80 ha)</strong> e informazioni descrittive sull’azienda.</p>
-            <p><a class="navlink" href="https://www.consulentedelgusto.it/2025/05/26/lolio-evo-librandi-espressione-autentica-delle-calabria/" target="_blank" rel="noopener">Apri fonte</a></p>
+            <p><a class="navlink"
+                href="https://www.consulentedelgusto.it/2025/05/26/lolio-evo-librandi-espressione-autentica-delle-calabria/"
+                target="_blank" rel="noopener">Apri fonte</a></p>
           </details>
 
           <details class="source">
             <summary><strong>The Travel News</strong> — panoramica e dimensione complessiva delle tenute</summary>
-            <p class="muted">Supporta: indicazioni sulla <strong>superficie complessiva delle tenute (~350 ha)</strong> e contesto aziendale.</p>
-            <p><a class="navlink" href="https://www.thetravelnews.it/tenuta-librandi-azienda-che-conserva-e-valorizza-il-patrimonio-viticolo-calabrese/" target="_blank" rel="noopener">Apri fonte</a></p>
+            <p class="muted">Supporta: indicazioni sulla <strong>superficie complessiva delle tenute (~350 ha)</strong>
+              e contesto aziendale.</p>
+            <p><a class="navlink"
+                href="https://www.thetravelnews.it/tenuta-librandi-azienda-che-conserva-e-valorizza-il-patrimonio-viticolo-calabrese/"
+                target="_blank" rel="noopener">Apri fonte</a></p>
           </details>
 
           <h5 class="card-title-xs">Fonte istituzionale</h5>
@@ -271,24 +371,33 @@
 
       <div class="two-col">
         <article class="card soft">
-        <h4 class="card-title-sm">Fasi di lavoro</h4>
-        <ol class="list compact">
-            <li><strong>Coltivazione della vite:</strong> gestione dei vigneti e valorizzazione delle varietà autoctone.</li>
-            <li><strong>Raccolta delle uve:</strong> selezione delle materie prime in funzione della qualità del prodotto finale.</li>
+          <h4 class="card-title-sm">Fasi di lavoro</h4>
+          <ol class="list compact">
+            <li><strong>Coltivazione della vite:</strong> gestione dei vigneti e valorizzazione delle varietà autoctone.
+            </li>
+            <li><strong>Raccolta delle uve:</strong> selezione delle materie prime in funzione della qualità del
+              prodotto finale.</li>
             <li><strong>Vinificazione:</strong> trasformazione delle uve in cantina secondo pratiche consolidate.</li>
-            <li><strong>Affinamento e imbottigliamento:</strong> controllo della qualità e preparazione alla commercializzazione.</li>
-            <li><strong>Distribuzione e comunicazione:</strong> diffusione del prodotto e trasparenza verso il pubblico.</li>
+            <li><strong>Affinamento e imbottigliamento:</strong> controllo della qualità e preparazione alla
+              commercializzazione.</li>
+            <li><strong>Distribuzione e comunicazione:</strong> diffusione del prodotto e trasparenza verso il pubblico.
+            </li>
           </ol>
-        </article>  
-        
+        </article>
+
         <article class="card soft">
           <h4 class="card-title-sm">Inclusività e responsabilità sociale</h4>
           <ul class="list compact">
-            <li><strong>Territorio e comunità:</strong> attenzione al legame con il contesto locale e alla valorizzazione delle risorse del territorio.</li>
-            <li><strong>Trasparenza verso gli stakeholder:</strong> comunicazione chiara attraverso la pubblicazione dei report e di informazioni accessibili al pubblico.</li>
-            <li><strong>Cultura della sostenibilità:</strong> promozione di pratiche e iniziative coerenti con la tutela ambientale e la responsabilità d’impresa.</li>
-            <li><strong>Dialogo e accessibilità delle informazioni:</strong> impegno a rendere i contenuti comprensibili anche a non addetti ai lavori (studenti, cittadini, interessati).</li>
-            <li><strong>Valore sociale della filiera:</strong> attenzione agli impatti sociali connessi alle attività produttive e alla filiera.</li>
+            <li><strong>Territorio e comunità:</strong> attenzione al legame con il contesto locale e alla
+              valorizzazione delle risorse del territorio.</li>
+            <li><strong>Trasparenza verso gli stakeholder:</strong> comunicazione chiara attraverso la pubblicazione dei
+              report e di informazioni accessibili al pubblico.</li>
+            <li><strong>Cultura della sostenibilità:</strong> promozione di pratiche e iniziative coerenti con la tutela
+              ambientale e la responsabilità d’impresa.</li>
+            <li><strong>Dialogo e accessibilità delle informazioni:</strong> impegno a rendere i contenuti comprensibili
+              anche a non addetti ai lavori (studenti, cittadini, interessati).</li>
+            <li><strong>Valore sociale della filiera:</strong> attenzione agli impatti sociali connessi alle attività
+              produttive e alla filiera.</li>
           </ul>
         </article>
       </div>
@@ -308,7 +417,8 @@
         </figure>
 
         <figure class="shot">
-          <img src="images/Cantina%20:%20Vinificazione.jpg" alt="Cantina o sede produttiva (immagine aziendale)" loading="lazy">
+          <img src="images/Cantina%20:%20Vinificazione.jpg" alt="Cantina o sede produttiva (immagine aziendale)"
+            loading="lazy">
           <figcaption>Cantina / sede produttiva</figcaption>
         </figure>
 
@@ -343,20 +453,23 @@
         </article>
 
         <!-- Bilancio 2023–2024 -->
-        <article class="card report-card" data-year="2023-2024" data-tags="librandi sostenibilità bilancio 2023 2024 pdf">
+        <article class="card report-card" data-year="2023-2024"
+          data-tags="librandi sostenibilità bilancio 2023 2024 pdf">
           <div class="card-top">
             <h4 class="card-title">Bilancio di sostenibilità 2023–2024</h4>
             <span class="badge">2023–2024</span>
           </div>
           <p class="card-desc">Report di sostenibilità relativo al periodo 2023–2024.</p>
           <div class="card-actions">
-            <a class="btn btn-primary" href="reports/bilancio_di_sostenibilita_librandi_2023-2024.pdf" download>Scarica</a>
+            <a class="btn btn-primary" href="reports/bilancio_di_sostenibilita_librandi_2023-2024.pdf"
+              download>Scarica</a>
           </div>
           <p class="card-footnote">Formato: PDF</p>
         </article>
 
         <!-- Bilancio 2022–2023 -->
-        <article class="card report-card" data-year="2022-2023" data-tags="librandi sostenibilità bilancio 2022 2023 pdf">
+        <article class="card report-card" data-year="2022-2023"
+          data-tags="librandi sostenibilità bilancio 2022 2023 pdf">
           <div class="card-top">
             <h4 class="card-title">Bilancio di sostenibilità 2022–2023</h4>
             <span class="badge">2022–2023</span>
@@ -401,4 +514,5 @@
   <script src="script.js" defer></script>
 
 </body>
+
 </html>
