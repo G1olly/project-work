@@ -1,3 +1,5 @@
+/* Librandi – UI pulita (dark/light) */
+
 /* 1) Design tokens */
 :root{
   --bg:#07060b;
@@ -23,7 +25,6 @@
 
   --focus:rgba(214,183,108,.45);
 }
-
 /* 2) Base */
 *{box-sizing:border-box;}
 html,body{height:100%;}
